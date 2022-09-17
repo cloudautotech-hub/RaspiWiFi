@@ -30,7 +30,7 @@ while True:
 
         print(counter)
 
-        if counter == 9:
+        if counter == 60:
             reset_lib.reset_to_host_mode()
 
         if GPIO.input(18) == 0:
